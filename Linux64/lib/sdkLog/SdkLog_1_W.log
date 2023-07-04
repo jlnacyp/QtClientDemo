@@ -1,0 +1,54 @@
+[2023-07-04 00:49:12.178][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/usr/lib/x86_64-linux-gnu/libz.so.1.2.11], hHandleRet[1348534544]
+[2023-07-04 00:49:12.178][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2023-07-04 00:49:12.178][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2023-07-04 00:49:12.178][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2023-07-04 00:49:12.219][DBG] CComBase::Load, Load szDllPath[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/HCNetSDKCom/libHCPreview.so] SUCC
+[2023-07-04 00:49:12.220][INF] dwTotalNum[2048]
+[2023-07-04 00:49:12.220][INF] AbilityAnalyze---Init-- start
+[2023-07-04 00:49:12.221][DBG] AbilityAnalyze---Init-- over, DeviceList path [/mnt/hgfs/share/identify/QtDemo/Linux64/lib/HCNetSDKCom/LocalXml/DeviceList.xml], load result[0]
+[2023-07-04 00:49:12.221][INF] The COM:Preview ver is 6.1.9.48, 2023_04_10.
+[2023-07-04 00:49:12.223][DBG] CComBase::Load, Load szDllPath[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/HCNetSDKCom/libHCAlarm.so] SUCC
+[2023-07-04 00:49:12.223][INF] The COM:HCAlarm ver is 6.1.9.48, 2023_04_10.
+[2023-07-04 00:49:12.223][INF] Listen Proc get Addr[0x55f2052720b0]
+[2023-07-04 00:49:16.191][INF] Login dev 192.168.2.164:8000.
+[2023-07-04 00:49:16.314][INF] Private connect 192.168.2.164:8000 sock=155 this=0x543d744 cmd=0x10000 port=48136
+[2023-07-04 00:49:16.314][INF] LogonDev1 in[192.168.2.164:8000]
+[2023-07-04 00:49:16.327][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/libcrypto.so.1.1], hHandleRet[88368752]
+[2023-07-04 00:49:16.333][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/libssl.so.1.1], hHandleRet[88370016]
+[2023-07-04 00:49:16.333][INF] SSLTRANSAPI::LoadAPI, libeay, Load Real Path[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/libcrypto.so.1.1]
+[2023-07-04 00:49:16.333][INF] SSLTRANSAPI::IsAllAPILoaded, SSL_library_init Unload
+[2023-07-04 00:49:16.333][INF] OpenSSL, Not All Function Loaded!
+[2023-07-04 00:49:16.333][INF] SSLTRANSAPI::PrintVersion, OpenSSL version info [OpenSSL 1.1.1l  24 Aug 2021]
+[2023-07-04 00:49:16.333][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[6], m_fnTLSServerMethod
+[2023-07-04 00:49:16.345][ERR] CSSLTrans::SSLTrans_CTX_Load_CA, invalid path[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/cert/\]
+[2023-07-04 00:49:16.763][DBG] CComBase::Load, Load szDllPath[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/HCNetSDKCom/libHCVoiceTalk.so] SUCC
+[2023-07-04 00:49:16.763][INF] The COM:VoiceTalk ver is 6.1.9.48, 2023_04_10.
+[2023-07-04 00:49:16.768][DBG] CComBase::Load, Load szDllPath[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/HCNetSDKCom/libHCGeneralCfgMgr.so] SUCC
+[2023-07-04 00:49:16.770][INF] The COM:HCGeneralCfgMgr ver is 6.1.9.48, 2023_04_10.
+[2023-07-04 00:49:16.775][DBG] CComBase::Load, Load szDllPath[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/HCNetSDKCom/libHCPlayBack.so] SUCC
+[2023-07-04 00:49:16.775][INF] The COM:HCPlayback ver is 6.1.9.48, 2023_04_10.
+[2023-07-04 00:49:16.777][DBG] CComBase::Load, Load szDllPath[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/HCNetSDKCom/libHCIndustry.so] SUCC
+[2023-07-04 00:49:16.778][INF] The COM:HCIndustry ver is 6.1.9.48, 2023_04_10.
+[2023-07-04 00:49:16.781][DBG] CComBase::Load, Load szDllPath[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/HCNetSDKCom/libHCDisplay.so] SUCC
+[2023-07-04 00:49:16.781][INF] The COM:HCDisplay ver is 6.1.9.48, 2023_04_10.
+[2023-07-04 00:49:16.793][INF] Private connect 192.168.2.164:8000 sock=155 this=0x543d744 cmd=0x20000 port=48152
+[2023-07-04 00:49:16.852][INF] Private connect 192.168.2.164:8000 sock=155 this=0x543d744 cmd=0x110170 port=48158
+[2023-07-04 00:49:16.878][INF] Private connect 192.168.2.164:8000 sock=155 this=0x543d744 cmd=0x110120 port=48168
+[2023-07-04 00:49:17.201][INF] CCoreGlobalCtrl::LoadDSo, enumDllType[0], cTempPath[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/]
+[2023-07-04 00:49:17.201][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[1408796320], enumDllType[0], Path[libPlayCtrl.so], syserror[11]
+[2023-07-04 00:49:17.201][DBG] ID-IP-CHAN[0-192.168.2.164-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.7.28]
+[2023-07-04 00:49:17.206][INF] Private connect 192.168.2.164:8000 sock=155 this=0x543d744 cmd=0x30000 port=48184
+[2023-07-04 00:49:17.213][INF] ID-IP-CHAN[0-192.168.2.164-1] [CGetTCPStream::Start] Stream Head Data Callback Start
+[2023-07-04 00:49:17.213][INF] ID-IP-CHAN[0-192.168.2.164-1] [CGetTCPStream::Start] Stream Head Data Callback End
+[2023-07-04 00:49:17.215][ERR] GetOverlayFontPath Failed
+[2023-07-04 00:49:18.033][INF] ID-IP-CHAN[0-192.168.2.164-1] [CPreviewPlayer::OpenPlayer] open player[56e3864] success
+[2023-07-04 00:49:18.033][INF] CCoreGlobalCtrl::LoadDSo, enumDllType[2], cTempPath[/mnt/hgfs/share/identify/QtDemo/Linux64/lib/HCNetSDKCom/]
+[2023-07-04 00:49:18.045][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[100673760], enumDllType[2], Path[libSystemTransform.so], syserror[11]
+[2023-07-04 00:49:18.045][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2023-07-04 00:49:18.047][DBG] ID-IP-CHAN[0-192.168.2.164-1] RTP Format
+[2023-07-04 00:49:18.054][INF] Private connect 192.168.2.164:8000 sock=158 this=0x543dd28 cmd=0x30007 port=48196
+[2023-07-04 00:49:18.075][INF] Private connect 192.168.2.164:8000 sock=158 this=0x543dd28 cmd=0x30008 port=48202
+[2023-07-04 00:49:18.123][INF] Private connect 192.168.2.164:8000 sock=158 this=0x543dd28 cmd=0x30008 port=48204
+[2023-07-04 00:49:18.214][INF] Private connect 192.168.2.164:8000 sock=158 this=0x543dd28 cmd=0x30008 port=48212
+[2023-07-04 00:49:18.282][INF] Private connect 192.168.2.164:8000 sock=158 this=0x543dd28 cmd=0x30008 port=48214
+[2023-07-04 00:49:21.142][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
